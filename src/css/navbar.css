@@ -1,0 +1,42 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logoelem{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.logo1{
+    height: 50px;
+    width: auto;
+}
+.cart{
+    font-size: xx-large;
+}
+.signinbut{
+    display: flex;
+    gap: 20px;
+}
+.signupbut{
+    background-color: rgb(252, 41, 71);
+    color: rgb(255, 255, 255);
+}
+.signinbut > button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 50px;
+}
+.elem{
+    padding: 15px 10px;
+    border-radius: 30px;
+    
+}
+
+.elem:hover  {
+    background-color: rgb(232, 232, 232);
+    
+    
+}

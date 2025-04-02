@@ -1,0 +1,209 @@
+.tcont{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 65px;
+}
+
+.c1{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(0, 197, 190);
+    border-radius: 100px;
+    text-align: center;
+    margin-left: 90px;
+    padding-top: 10px;
+    z-index: 3;
+}
+
+.c2{
+    position: relative;
+    width: 250px;
+    height: 225px;
+    margin-top: -75px;
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 90px;
+    border-radius: 10px;
+    z-index: 2;
+    margin-left: 15px;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+}
+.c3{
+    position: relative;
+    width: 280px;
+    height: 125px;
+    margin-top: -110px;
+    background-color: rgb(0, 197, 190);
+    border-radius: 10px;
+    z-index: 1;
+}
+.c4{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100px;
+    padding-top: 22px;
+    font-size: x-large;
+    color: rgb(0, 197, 190);
+}
+.cp1{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(243, 176, 79);
+    border-radius: 100px;
+    text-align: center;
+    margin-left: 90px;
+    padding-top: 10px;
+    z-index: 3;
+}
+
+.cp2{
+    position: relative;
+    width: 250px;
+    height: 225px;
+    margin-top: -75px;
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 90px;
+    box-shadow: 4cap;
+    border-radius: 15px;
+    z-index: 2;
+    margin-left: 15px;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+}
+.cp3{
+    position: relative;
+    width: 280px;
+    height: 125px;
+    margin-top: -110px;
+    background-color: rgb(243, 176, 79);
+    border-radius: 10px;
+    z-index: 1;
+}
+.cp4{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 100px;
+    padding-top: 23px;
+    font-size: x-large;
+    color: rgb(243, 176, 79);
+}
+.ct1{
+    position: relative;
+    width: 280px;
+    height: 125px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 189, 235);
+    z-index: 1;
+}
+
+.ct2{
+    position: relative;
+    width: 250px;
+    height: 225px;
+    border-radius: 10px;
+    margin-top: -110px;
+    margin-left: 15px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: aliceblue;
+    z-index: 2;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+}
+.ct3{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-left: 90px;
+    margin-top: -75px;
+    border-radius: 100px;
+    padding-top: 10px;
+    background-color: rgb(0, 189, 235);
+    z-index: 3;
+}
+.ct4{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    padding-top: 20px;
+    background-color: white;
+    font-size: x-large;
+    color: rgb(0, 189, 235);
+    z-index: 4;
+}
+.cx1{
+    position: relative;
+    width: 280px;
+    height: 125px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(250, 63, 70);
+    z-index: 1;
+}
+
+.cx2{
+    position: relative;
+    width: 250px;
+    height: 225px;
+    border-radius: 10px;
+    margin-top: -110px;
+    margin-left: 15px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: aliceblue;
+    z-index: 2;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+}
+.cx3{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-left: 90px;
+    margin-top: -75px;
+    border-radius: 100px;
+    padding-top: 10px;
+    background-color: rgb(250, 63, 70);
+    z-index: 3;
+}
+.cx4{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    padding-top: 20px;
+    background-color: white;
+    font-size: x-large;
+    color: rgb(250, 63, 70);
+    z-index: 4;
+}
+h3{
+    font-weight: bold;
+    color: gray;
+}
+h5{
+    color: gray;
+}
+.prof{
+    margin-left: 25px;
+    width: 200px;
+}
+.he6y{
+    color: rgb(243, 176, 79);
+}
+.he6r{
+    color: rgb(250, 63, 70);
+}
+@media (max-width:1080px){
+    .tcont{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 150px;
+    }
+}
