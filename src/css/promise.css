@@ -1,67 +1,33 @@
 @import '@fortawesome/fontawesome-free/css/all.min.css';
 
-.heading{
+.promheading{
+    text-align: center;
     font-size: 40px;
     font-weight: bold;
 }
 .bo{
     color: rgb(86, 102, 131);
-}
-.container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin-right: 100px;
-    margin-left: 100px;
-}
-.gridit{
-    margin: 15px;
-    color:rgb(86, 102, 131)
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.gridit{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0;
+    max-width: 380px;
+}
 .head{
     font-size: x-large;
     font-weight: bold;
     padding: 20px;
-}
-.iconblue{
-    color: rgb(68, 178, 179);
-}
-.iconyellow{
-    color: rgb(239, 175, 75);
-}
-.iconlightb{
-    color: rgb(0, 189, 235);
-}
-.iconpurp{
-    color: rgb(134, 74, 249);
-}
-.iconred{
-    color: rgb(252, 41, 71);
-}
-.icongreen{
-    color: rgb(50, 199, 102);
-}
-.blue{
-    border-top: solid 3px rgb(68, 178, 179);
-}
-.yellow{
-    border-top: solid 3px rgb(239, 175, 75);
-}
-.lightb{
-    border-top: solid 3px rgb(0, 189, 235);
-}
-.purp{
-    border-top: solid 3px rgb(134, 74, 249);
-}
-.red{
-    border-top: solid 3px rgb(252, 41, 71);
-}
-.green{
-    border-top: solid 3px rgb(50, 199, 102);
-}
-@media (max-width: 1200px){
-    .container{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
 }

@@ -1,12 +1,12 @@
 .footerlist{
     display: flex;
-    justify-content: space-between;
 }
 .footerlist > ul{
     list-style-type: none;
 }
 .lists{
     display: flex;
+    flex-wrap: wrap;
 }
 .lists > ul{
     list-style-type: none;

@@ -4,48 +4,14 @@ body{
 .i1{
     width: 100%;
 }
-.regcont{
-    margin-left: 50px;
-}
-.regcont1{
-    width: 650px;
-    font-size: large;
-}
-.reg{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(252, 41, 71);
-    color: rgb(255, 255, 255);
-    border-radius: 90px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-.regcont2{
-    font-size: xx-large;
-    font-weight: bold;
-}
-.regbut{
-    margin-top: 30px;
-    margin-right: 60px;
-}
-.regnow{
-    height:50px;
-    width: 200px;
-    font-size: large;
-    border-radius: 90px;
-    font-family: 'Poppins',sans-serif;
-    border: none;
-}
+
 .about{
-    font-size: larger;
-    margin-left: 250px;
-    margin-right: 250px;
+    font-size: larger; 
+    padding-left: 30px;
+    padding-right: 30px;
     color: rgb(86, 102, 131);
 }
 .b1{
-    margin-left: 500px;
     background-color: rgb(232, 232, 232);
     height: 50px;
     width: 200px;
@@ -73,66 +39,14 @@ body{
 }
 .buttons{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 40px;
 }
-.aim{
-    margin-right: 200px;
-    margin-left: 200px;
-    font-size: larger;
-    color: rgb(86, 102, 131);
-}
+
 .name{
-    font-size: 70px;
+    font-size: 50px;
+    font-weight:500;
     color: rgb(252, 41, 71);
-}
-.vistit{
-    color: rgb(243, 176, 79);
-    border-left: solid 4px rgb(243, 176, 79);
-    padding-left: 10px;
-}
-.mistit{
-    color: rgb(0, 189, 235);
-    border-left: solid 4px rgb(0, 189, 235);
-    padding-left: 10px;
-}
-.container{
-    display: flex;
-    justify-content: space-evenly;
-    @media(max-width: 768px){
-        display: block;
-        margin-left: 270px;
-    }
-}
-.vision{
-    height: 300px;
-    width: 350px;
-}
-.mission{
-    height: 300px;
-    width: 350px;
-}
-.miscont{
-    font-size: large;
-    color: rgb(86, 102, 131);
-}
-.viscont{
-    font-size: large;
-    color: rgb(86, 102, 131);
-}
-@media (max-width:1080px){
-    .reg{
-        display: block;
-        text-align: center;
-    }
-    .regbut{
-        justify-self: center;
-    }
-    .regcont1{
-        justify-self: center;
-        width: 600px;
-    }
-    .regcont2{
-        justify-self: center;
-        width: 600px;
-    }
+    text-align: center;
 }

@@ -6,17 +6,22 @@ import Footer from './components/Footer'
 import Promise from './components/Promise'
 import Trustedby from './components/Trustedby'
 import Feedback from './components/Feedback'
+import VisMis from './components/VisMis'
+import UserpageComp from './components/userpageComp'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <Navbar/>
-      <Home/> <br /><br /><br />
-      <Trustedby/><br /> <br />
-      <Promise/><br /> <br />
-      <Footer/>
+    {/* <Navbar />
+    <Home/> 
+      
+      <VisMis /><br /><br />
+      <Trustedby /> <br /><br />
+      <Promise/><br /> <br />  */}
+      <Footer />
+      {/* <UserpageComp /> */}
     </>
   )
 }

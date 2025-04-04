@@ -1,4 +1,6 @@
 import logo from "../assets/logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import "../css/navbar.css";
 const Navbar = () => {
   return (
@@ -14,9 +16,18 @@ const Navbar = () => {
           <li className="elem">My Courses</li>
         </ul>
         <div className="signinbut">
-          <span className="cart">🛒</span>
+        <FontAwesomeIcon className="cart1" icon={faCartShopping} />
           <button>LogIn</button>
           <button className="signupbut">Signup</button>
+        </div>
+      </div>
+      <div className="menubar">
+        <div>
+          <img className="logo1" src={logo} alt="" />
+        </div>
+        <div className="cart">
+          <FontAwesomeIcon icon={faCartShopping} />
+          <FontAwesomeIcon icon={faBars} />
         </div>
       </div>
     </div>

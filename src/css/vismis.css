@@ -1,0 +1,72 @@
+.symtitle{
+    text-align: center;
+    font-weight: 600;
+}
+.vismiscontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.regcont1{
+    font-size: large;
+}
+.reg{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    background-color: rgb(252, 41, 71);
+    color: rgb(255, 255, 255);
+    border-radius: 90px;
+    padding: 40px;
+}
+.regcont2{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.regbut{
+    text-align: center;
+}
+@media (max-width:1111px) {
+    .regbut{
+        width: 100%;
+        text-align: center;
+    }
+}
+.regnow{
+    font-size: large;
+    border-radius: 90px;
+    font-family: 'Poppins',sans-serif;
+    border: none;
+    margin-top: 25px;
+}
+.vistit{
+    color: rgb(243, 176, 79);
+    border-left: solid 4px rgb(243, 176, 79);
+    padding-left: 10px;
+}
+.mistit{
+    color: rgb(0, 189, 235);
+    border-left: solid 4px rgb(0, 189, 235);
+    padding-left: 10px;
+}
+
+.miscont{
+    font-size: large;
+    color: rgb(86, 102, 131);
+}
+.viscont{
+    font-size: large;
+    color: rgb(86, 102, 131);
+}
+.aim{   
+    font-size: larger;
+    justify-self: center;
+    max-width: 900px;
+    color: rgb(86, 102, 131);
+    text-align: center;
+}
+
